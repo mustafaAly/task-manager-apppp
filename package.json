@@ -1,0 +1,29 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": " node src/index.js",
+    "dev": "env-cmd -f config/dev.env nodemon src/index.js",
+    "database": "C:/Users/Moustafa/mongodb/bin/mongod.exe --dbpath=C:/Users/Moustafa/mongodb-data",
+    "promise": " nodemon promises.js",
+    "await": " nodemon async-await.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.0.1",
+    "autocompleter": "^6.0.2",
+    "bcryptjs": "^2.4.3",
+    "env-cmd": "^10.1.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.9",
+    "multer": "^1.4.2",
+    "sharp": "^0.25.2",
+    "validator": "^13.0.0"
+  }
+}
